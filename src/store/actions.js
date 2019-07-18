@@ -1,0 +1,2 @@
+export const GET_TUTORIAL_BY_ID = 'GET_TUTORIAL_BY_ID';
+export const GET_ALL_TUTORIALS = 'GET_ALL_TUTORIALS';

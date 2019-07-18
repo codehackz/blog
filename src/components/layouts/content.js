@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import { AppBar } from "@material-ui/core";
+import Tutorial from "../tutorial";
 
 class Content extends Component {
       render() {
-
         return (
           <div>
-          <AppBar color="primary" position="static">
-            <h1>My Content F111</h1>
-          </AppBar>
-
+             <Tutorial title="code ni" category="c dagat" datePosted="karong adlawa sssss"/>
           </div>
         );
       }

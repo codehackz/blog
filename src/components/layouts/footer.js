@@ -6,10 +6,7 @@ class Footer extends Component {
 
         return (
           <div>
-          <AppBar color="primary" position="static">
-            <h1>My footer F111</h1>
-          </AppBar>
-
+              Footer is Real
           </div>
         );
       }
