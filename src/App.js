@@ -8,7 +8,6 @@ import TypoGraphy from '@material-ui/core/Typography'
 import NavBar from '../src/components/layouts/navbar'
 import Posts from '../src/components/layouts/posts'
 
-
 function App() {
   return (
     <div>
@@ -17,7 +16,7 @@ function App() {
          <TypoGraphy variant="title"
            color="inherit"
          >
-          My Header
+          My Header 44444
         </TypoGraphy>
         <NavBar />
        </Toolbar>

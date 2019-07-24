@@ -9,7 +9,7 @@ import { Home, Book, AccountBox } from '@material-ui/icons'
 function NavBar(props) {
 
     return (
-       
+
         <List component="nav">
             <ListItem component="div" >
 
@@ -29,6 +29,12 @@ function NavBar(props) {
                 <ListItemText inset>
                     <TypoGraphy color="inherit" variant="title">
                         Contact <AccountBox />
+                    </TypoGraphy>
+                </ListItemText>
+
+                <ListItemText inset>
+                    <TypoGraphy color="inherit" variant="title">
+                        About <AccountBox />
                     </TypoGraphy>
                 </ListItemText>
             </ListItem >
